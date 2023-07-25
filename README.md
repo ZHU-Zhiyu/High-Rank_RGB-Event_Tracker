@@ -28,9 +28,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker">
-    <img src="images/CM_Tracking_021.gif" alt="Logo" width="250" height="180">
-    <img src="images/CM_Tracking_011.gif" alt="Logo" width="250" height="180">
-    <img src="images/CM_Tracking_031.gif" alt="Logo" width="250" height="180">
+    <img src="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/blob/main/images/CM_Tracking_021.gif" alt="Logo" width="250" height="180">
+    <img src="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/blob/main/images/CM_Tracking_011.gif" alt="Logo" width="250" height="180">
+    <img src="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/blob/main/images/CM_Tracking_031.gif" alt="Logo" width="250" height="180">
   </a>
   <h6 align="center">Demos </h6>
 </div>
@@ -45,9 +45,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <!-- <li><a href="#usage">Usage</a></li> -->
+    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
+    <!-- <li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
