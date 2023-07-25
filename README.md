@@ -28,9 +28,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker">
-    <img src="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/images/CM_Tracking_021.gif" alt="Logo" width="250" height="180">
-    <img src="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/images/CM_Tracking_011.gif" alt="Logo" width="250" height="180">
-    <img src="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/images/CM_Tracking_031.gif" alt="Logo" width="250" height="180">
+    <img src="images/CM_Tracking_021.gif" alt="Logo" >
+    <img src="images/CM_Tracking_011.gif" alt="Logo" >
+    <img src="images/CM_Tracking_031.gif" alt="Logo" >
   </a>
   <h6 align="center">Demos </h6>
 </div>
