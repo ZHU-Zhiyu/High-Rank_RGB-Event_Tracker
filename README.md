@@ -222,8 +222,7 @@ To get a local copy up and running follow these simple example steps. -->
 <br />
 <div align="center">
   <a href="https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker">
-    <img src="images/FE108.png" alt="Logo" width="300" height="380">
-    ...........
+    <img src="images/FE108.png" alt="Logo" width="300" height="380">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="images/FE108.png" alt="Logo" width="300" height="380">
   </a>
   <!-- <h6 align="center">Demos </h6> -->
