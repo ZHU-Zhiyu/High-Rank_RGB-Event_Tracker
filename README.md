@@ -43,6 +43,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#evaluation">Evaluation</a></li>
       </ul>
     </li>
     <!-- <li><a href="#usage">Usage</a></li> -->
@@ -198,8 +200,6 @@ To get a local copy up and running follow these simple example steps. -->
    cd ./CEUTrack
    sh install.sh
    ```
-
-
 ### Training
 1. One stream tracker: MonTrack
    ```sh
@@ -217,7 +217,6 @@ To get a local copy up and running follow these simple example steps. -->
    cd ./CEUTrack
    sh install.sh
    ```
-
 ### Evaluation
 <br />
 <div align="center">
