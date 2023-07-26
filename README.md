@@ -336,7 +336,7 @@ If you find the project is interesting, please cite
 }
    ```
 
-
+Template from [othneildrew](https://github.com/othneildrew/Best-README-Template).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -344,18 +344,17 @@ If you find the project is interesting, please cite
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker.svg?style=for-the-badge
 [contributors-url]: https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker.svg?style=for-the-badge
 [forks-url]: https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker.svg?style=for-the-badge
 [stars-url]: https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker.svg?style=for-the-badge
 [issues-url]: https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker.svg?style=for-the-badge
 [license-url]: https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
