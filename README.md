@@ -202,20 +202,20 @@ To get a local copy up and running follow these simple example steps. -->
    ```
 ### Training
 1. One stream tracker: MonTrack
+  download SwinV2 [Tiny]()/[Base]() and put them into
    ```sh
-   conda create -n montrack python==3.8
-   conda activate montrack
-   cd ./MonTrack
-   conda install --yes --file requirements.txt
+   ./ltr/checkpoint
    ```
-    Then install [KNN_CUDA](https://github.com/unlimblue/KNN_CUDA)
+    Then run the following code
+    ```sh
+    cd ./MonTrack/ltr
+    sh train.sh
+    ```
 
 2. Two-streams tracker: CEUTrack
    ```sh
-   conda create -n CEUTrack python==3.8
-   conda activate CEUTrack
-   cd ./CEUTrack
-   sh install.sh
+   cd CEUTrack
+   sh train.sh
    ```
 ### Evaluation
 <br />
@@ -236,19 +236,13 @@ To get a local copy up and running follow these simple example steps. -->
 
 1. One stream tracker: MonTrack
    ```sh
-   conda create -n montrack python==3.8
-   conda activate montrack
-   cd ./MonTrack
-   conda install --yes --file requirements.txt
+   sh eval.sh
    ```
     Then install [KNN_CUDA](https://github.com/unlimblue/KNN_CUDA)
 
 2. Two-streams tracker: CEUTrack
    ```sh
-   conda create -n CEUTrack python==3.8
-   conda activate CEUTrack
-   cd ./CEUTrack
-   sh install.sh
+   sh eval.sh
    ```
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -268,7 +262,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Update ReadMe
 - [x] Upload Code
-- [ ] ....
+- [x] Testing Code
+......
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

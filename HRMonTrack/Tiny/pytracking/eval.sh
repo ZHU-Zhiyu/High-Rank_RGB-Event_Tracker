@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python run_tracker.py transt transt50 --dataset eotb --threads 2

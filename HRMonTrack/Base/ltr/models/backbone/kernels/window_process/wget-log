@@ -1,0 +1,6 @@
+--2022-11-11 22:54:27--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/357198522/3437414f-dd50-4288-bf41-b7a87a940980?X-Amz-Algorithm=AWS4-HMAC-SHA256
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2022-11-11 22:54:27 ERROR 400: Bad Request.
+

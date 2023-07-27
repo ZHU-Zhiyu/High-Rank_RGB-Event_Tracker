@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 python tracking/test.py   ceutrack ceutrack_coesot --dataset coesot --threads 5 --num_gpus 1

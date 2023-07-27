@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 python run_training.py transt transt
