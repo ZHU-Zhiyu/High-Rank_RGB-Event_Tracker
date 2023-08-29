@@ -186,25 +186,42 @@ To get a local copy up and running follow these simple example steps. -->
     ```
     </details>
 ### Installation
-1. One stream tracker: MonTrack
-   ```sh
-   conda create -n montrack python==3.8
-   conda activate montrack
-   cd ./MonTrack
-   conda install --yes --file requirements.txt
-   ```
-    Then install [KNN_CUDA](https://github.com/unlimblue/KNN_CUDA)
-
-2. Two-streams tracker: CEUTrack
+1. One-stream tracker: CEUTrack
    ```sh
    conda create -n CEUTrack python==3.8
    conda activate CEUTrack
    cd ./CEUTrack
    sh install.sh
    ```
+
+2. Two-streams tracker: MonTrack
+   ```sh
+    conda create -n montrack python==3.8
+    conda activate montrack
+    cd ./MonTrack
+    conda install -c pytorch pytorch=1.5 torchvision=0.6.1 cudatoolkit=10.2
+    conda install matplotlib pandas tqdm
+    pip install opencv-python tb-nightly visdom scikit-image tikzplotlib gdown
+    conda install cython scipy
+    sudo apt-get install libturbojpeg
+    pip install pycocotools jpeg4py
+    pip install wget yacs
+    pip install shapely==1.6.4.post2
+    python -c "from pytracking.evaluation.environment import create_default_local_file; create_default_local_file()"
+    python -c "from ltr.admin.environment import create_default_local_file; create_default_local_file()"
+   ```
+    Then install [KNN_CUDA](https://github.com/unlimblue/KNN_CUDA)
+
+
 ### Training
-1. One stream tracker: MonTrack
-  download SwinV2 [Tiny]()/[Base]() and put them into
+1. One-stream tracker: CEUTrack
+   ```sh
+   cd CEUTrack
+   sh train.sh
+   ```
+
+2. Two-streams tracker: MonTrack
+  download SwinV2 [Tiny](https://github.com/SwinTransformer/storage/releases/download/v2.0.0/swinv2_tiny_patch4_window8_256.pth)/[Base](https://github.com/SwinTransformer/storage/releases/download/v2.0.0/swinv2_base_patch4_window8_256.pth) and put them into
    ```sh
    ./ltr/checkpoint
    ```
@@ -213,12 +230,6 @@ To get a local copy up and running follow these simple example steps. -->
     cd ./MonTrack/ltr
     sh train.sh
     ```
-
-2. Two-streams tracker: CEUTrack
-   ```sh
-   cd CEUTrack
-   sh train.sh
-   ```
 ### Evaluation
 <br />
 <div align="center">
@@ -311,7 +322,7 @@ Homepage: [Page](https://zhu-zhiyu.netlify.app/) / [Scholar](https://scholar.goo
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-Thanks to [FE108](https://zhangjiqing.com/dataset/)  and [COESOT](https://github.com/Event-AHU/COESOT) datasets.
+Thanks to [FE108](https://zhangjiqing.com/dataset/), [COESOT](https://github.com/Event-AHU/COESOT) datasets, [TransT](https://github.com/chenxin-dlut/TransT) and [OsTrack](https://github.com/botaoye/OSTrack).
 
 If you find the project is interesting, please cite
    ```sh
