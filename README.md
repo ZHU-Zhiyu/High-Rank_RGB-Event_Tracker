@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple example steps. -->
 &nbsp;&nbsp; * Download data from [FE108](https://zhangjiqing.com/dataset/) 
 &nbsp;&nbsp; * Transfer and clip data into h5py format
     ```sh
-    python ./FE108/Evt_convert.py
+    python ./Utils/Evt_convert.py
     ```
     The directory should have the below format:
     <details open> <summary>Format of FE108 (click to expand)</summary>
