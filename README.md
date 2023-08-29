@@ -106,8 +106,10 @@ To get a local copy up and running follow these simple example steps. -->
       ```sh
       git clone https://github.com/ZHU-Zhiyu/High-Rank_RGB-Event_Tracker.git
       ```
-2. FE108
+  2. FE108
+
 &nbsp;&nbsp; * Download data from [FE108](https://zhangjiqing.com/dataset/) 
+
 &nbsp;&nbsp; * Transfer and clip data into h5py format
     ```sh
     python ./Utils/Evt_convert.py
