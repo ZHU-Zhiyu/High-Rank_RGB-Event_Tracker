@@ -1,0 +1,10 @@
+
+
+sudo mount -t cifs -o uid=ioe,username=nas,password=IOEioe05,iocharset=utf8 //192.168.1.2/test/xxxxx /home/ioe/xxxxx/EventTracking
+
+sudo mount -t cifs -o uid=ioe,username=nas,password=IOEioe05,iocharset=utf8 //192.168.1.2/test/TrackigTest/OTB100 /media/ioe/2t/tracking_datasets/OTB100
+
+sudo mount -t cifs -o uid=ioe,username=nas,password=IOEioe05,iocharset=utf8 //192.168.1.2/test/TrackigTest/LaSOT /media/ioe/2t/tracking_datasets/LaSOTTest/lasot
+
+sudo umount /media/ioe/2t/tracking_datasets/LaSOTTest/lasot
+
