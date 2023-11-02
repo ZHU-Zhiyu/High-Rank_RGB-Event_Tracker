@@ -5,7 +5,8 @@
 [![MIT License][license-shield]][license-url]
 <!-- [![MyHomePage][linkedin-shield]][linkedin-url] -->
 
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-modal-orthogonal-high-rank-augmentation/object-tracking-on-fe108)](https://paperswithcode.com/sota/object-tracking-on-fe108?p=cross-modal-orthogonal-high-rank-augmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-modal-orthogonal-high-rank-augmentation/object-tracking-on-coesot)](https://paperswithcode.com/sota/object-tracking-on-coesot?p=cross-modal-orthogonal-high-rank-augmentation)
 
 <!-- PROJECT LOGO -->
 <br />
