@@ -15,8 +15,8 @@ Path_out = None
 
 train_name_file ='Please set here to the path to train.txt'
 match_file = 'Please set here to the path to pair.txt'
-aedat_file = 'Please set here to the path to events.aedat4'
-save_file = 'Please set here to the path to save h5 file'
+aedat_file = 'Please set here to the path, to make we can find aedat_file/seq_name/events.aedat4'
+# save_file = 'Please set here to the path to save h5 file' file is save to os.path.join(aedat_file,  'Event file', name+'.h5')
 
 with open(train_name_file, 'r') as f:
     for line in f.readlines():
@@ -37,7 +37,7 @@ for name in train_names[::-1]:
     print(name)
     gc.collect()
     with AedatFile(os.path.join(aedat_file,  name, 'events.aedat4')) as f1:
-        output_event = os.path.join(aedat_file,  name, 'events.aedat4')
+        output_event = os.path.join(aedat_file,  'Event file', name+'.h5')
         if os.path.exists(output_event) == False:
             print('name:{}'.format(name))
             gt_bbox = np.loadtxt(os.path.join(aedat_file,  name, 'groundtruth_rect.txt'),delimiter=',')
